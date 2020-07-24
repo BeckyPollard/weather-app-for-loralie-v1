@@ -1,0 +1,15 @@
+@import './stylePartials/setup.scss';
+@import './stylePartials/colours.scss';
+@import './stylePartials/typography.scss';
+@import './stylePartials/header.scss';
+@import './stylePartials/weatherReport.scss';
+@import './stylePartials/footer.scss';
+
+body {
+  background: $white;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
